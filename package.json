@@ -1,0 +1,19 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Validating post release device health",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetchReport": "node javascript/fetchDaxReport.js",
+    "deviceConflict": "node javascript/filterDevices.js"
+  },
+  "author": "vishal",
+  "license": "ISC",
+  "dependencies": {
+    "node-dax": "^1.0.5",
+    "node-fetch": "^1.6.3",
+    "request-promise": "^4.2.0",
+    "url-parse": "^1.1.8"
+  }
+}
